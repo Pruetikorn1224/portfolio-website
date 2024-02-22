@@ -50,7 +50,7 @@ const Projects = () => {
 
 
   return (
-    <section id='projects' className='w-full h-fit font-sans px-32 pb-6 max-xl:h-fit max-md:px-16 max-sm:px-8'>
+    <section id='projects' className='w-full h-fit font-sans px-32 pb-6 animate-start max-xl:h-fit max-md:px-16 max-sm:px-8'>
         <div className='w-full h-full items-center justify-center flex flex-col'>
           <div className='w-full bg-slate-700 h-px mb-16 max-sm:w-5/6'></div>
           <p className='text-4xl font-bold mb-20'>Projects</p>

@@ -10,22 +10,23 @@ export default {
         '128': '32rem',
       },
       height: {
+        '84': '21rem',
         '128': '32rem',
         '112': '28rem'
       },
 
       animation: {
-        fade: 'fadeIn 300ms ease-in-out',
-        color: 'bgColor 300ms'
+        fade: 'fadeInR 300ms ease-in-out',
+        start: 'fadeInB 500ms ease-in-out'
       },
       keyframes: theme => ({
-        fadeIn: {
+        fadeInR: {
           '0%': { opacity: 0, transform: 'translate(1%)'},
           '100%': { opacity: 1, transform: 'translate(0)' },
         },
-        bgColor: {
-          '0%': { background: 'rgb(255 255 255)' },
-          '100%': { background: 'rgb(30 58 138)' }
+        fadeInB: {
+          '0%': { opacity: 0, transform: 'translate(0, 3%)'},
+          '100%': { opacity: 1, transform: 'translate(0)' },
         }
       }),
     },

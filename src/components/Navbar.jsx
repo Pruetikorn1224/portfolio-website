@@ -14,7 +14,7 @@ const Navbar = () => {
   });
 
   return (
-    <nav className='h-16 w-full items-center justify-center font-sans text-xl bg-gradient-to-b from-gray-200 to-white flex fixed z-10 max-sm:items-start'>
+    <nav className='h-16 w-full items-center justify-center font-sans text-xl bg-gradient-to-b from-gray-200 to-white backdrop-blur-sm flex fixed z-20 max-sm:items-start'>
         <div className='max-md:hidden'>
             <Link activeClass='text-blue-600' to='about' spy={true} smooth={true} duration={500} className='cursor-pointer mx-12 hover:text-blue-600'>ABOUT</Link>
             <Link activeClass='text-blue-600' to='skills' spy={true} smooth={true} duration={500} className='cursor-pointer mx-12 hover:text-blue-600'>SKILLS</Link>

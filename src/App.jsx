@@ -13,7 +13,7 @@ function App() {
 
   return (
     <Suspense fallback={<Loading/>}>
-      <div className="w-full max-sm:items-center max-sm:justify-center bg-gradient-to-b from-white to-cyan-50">
+      <div className="w-full max-sm:items-center max-sm:justify-center bg-gradient-to-b from-white to-gray-100">
         <Navbar />
         <About />
         <Skills />
