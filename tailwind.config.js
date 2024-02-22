@@ -11,8 +11,10 @@ export default {
       },
       height: {
         '84': '21rem',
+        '112': '28rem',
         '128': '32rem',
-        '112': '28rem'
+        '144': '36rem',
+        '160': '40rem'
       },
 
       animation: {
