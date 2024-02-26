@@ -20,14 +20,14 @@ const Contact = () => {
       <div className='w-full h-full items-center justify-center flex flex-col'>
       <div className='w-full bg-slate-700 h-px mb-16 max-sm:w-5/6'></div>
           <p className='text-4xl font-bold mb-8'>Contact</p>
-          <div className='flex flex-col w-1/3 items-center justify-center mb-16 text-lg font-bold max-xl:w-2/3 max-md:w-5/6'>
+          <div className='flex flex-col w-1/3 items-center justify-center mb-16 text-lg font-mono font-bold max-xl:w-2/3 max-md:w-5/6'>
             <div className='w-full h-fit flex items-center'>
               <img src={Email} className='object-fit m-4 h-12 w-12 rounded-full select-none'/>
               <span>p.chirattitikarn@outlook.com</span>
             </div>
             <div className='w-full h-fit flex items-center'>
               <img src={Phone} className='object-fit m-4 h-12 w-12 rounded-full select-none'/>
-              <span>(+44) 7354544076 <br/>(+66) 904839182</span>
+              <span>(+44) 7354544076</span>
             </div>
           </div>
           <div className='flex items-center justify-center pb-4'>
