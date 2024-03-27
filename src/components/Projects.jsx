@@ -189,11 +189,11 @@ const Projects = () => {
                     <p className="text-blue-500 max-lg:hidden">A demo game of endless runner type</p>
                   </div>
                 </a>
-                <a className="w-full h-full border border-blue-900 rounded-xl flex-1 shadow-lg hover:shadow-blue-500 max-md:h-1/4" href="https://github.com/Pruetikorn1224/exercise_game_pose_estimation">
+                <a className="w-full h-full border border-blue-900 rounded-xl flex-1 shadow-lg hover:shadow-blue-500 max-md:h-1/4" href="https://github.com/jiwonhaha/VECW1.git">
                   <img src={Passport} alt="Ubiq Passport Control" className="w-full h-2/3 object-cover rounded-xl max-xl:h-2/3"/>
                   <div className="p-4 max-sm:px-2 max-sm:py-4">
                     <span className="font-bold mb-4 max-lg:text-sm">Ubiq Passport Control</span>
-                    <p className="text-blue-500 max-lg:hidden">A simulation game for training passport inspector at the airport</p>
+                    <p className="text-blue-500 max-lg:hidden">A VR simulation game for training passport inspector</p>
                   </div>
                 </a>
                 {/* <a className="w-full h-full border border-blue-900 rounded-xl flex-1 shadow-lg hover:shadow-blue-500 max-md:h-1/4" href="https://github.com/Pruetikorn1224/exercise_game_pose_estimation">
