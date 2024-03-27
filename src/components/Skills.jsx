@@ -23,6 +23,8 @@ import Arduino from './../assets/skills/arduino.png';
 import Sketchup from './../assets/skills/sketchup.png';
 import Raspberry from './../assets/skills/raspberry_pi.png';
 import Mongo from './../assets/skills/mongodb.png';
+import Tableau from './../assets/skills/tableau.png';
+// import Unreal from './../assets/skills/unreal.png';
 
 import Thinking from './../assets/skills/thinking.png';
 import Creative from './../assets/skills/creative.png';
@@ -40,7 +42,8 @@ const Skills = () => {
     "3DModelling": ["Sketchup", "Autodesk", "Blender"],
     // "GameDev": ["Unity", "Unreal"],
     "GameDev": ["Unity"],
-    "DataVis": ["SQL", "MongoDB"],
+    "DataVis": ["SQL", "MongoDB", "Tableau"],
+    // "DataVis": ["SQL", "MongoDB"],
     "Frontend": ["JavaScript", "AdobeXD", "Figma"],
     "Python": ["Programming", "AI"],
     "JavaScript": ["Programming", "Frontend"],
@@ -48,6 +51,7 @@ const Skills = () => {
     "MATLAB": ["Programming", "AI"],
     "SQL": ["Programming", "DataVis"],
     "MongoDB": ["DataVis"],
+    "Tableau": ["DataVis"],
     "Pytorch": ["AI"],
     "Tensorflow": ["AI"],
     "AdobeXD": ["Design", "Frontend"],
@@ -151,6 +155,10 @@ const Skills = () => {
                 <img src={Mongo} className='size-6 object-cover'/>
                 MongoDB
               </div>
+              <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} id='Tableau' className='bg-white flex gap-x-2 items-center pt-2 pb-2 pl-4 pr-4 m-2 border-2 border-blue-900 font-medium duration-300 select-none'>
+                <img src={Tableau} className='size-6 object-cover'/>
+                Tableau
+              </div>
               <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} id='Pytorch' className='bg-white flex gap-x-2 items-center pt-2 pb-2 pl-4 pr-4 m-2 border-2 border-blue-900 font-medium duration-300 select-none'>
                 <img src={Pytorch} className='size-6 object-cover'/>
                 Pytorch
@@ -175,14 +183,6 @@ const Skills = () => {
               <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} id='Blender' className='bg-white flex gap-x-2 items-center pt-2 pb-2 pl-4 pr-4 m-2 border-2 border-blue-900 font-medium duration-300 select-none'>
                 <img src={Blender} className='size-6 object-cover'/>
                 Blender
-              </div>
-              <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} id='Sketchup' className='bg-white flex gap-x-2 items-center pt-2 pb-2 pl-4 pr-4 m-2 border-2 border-blue-900 font-medium duration-300 select-none'>
-                <img src={Sketchup} className='size-6 object-cover'/>
-                Sketchup
-              </div>
-              <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} id='Autodesk' className='bg-white flex gap-x-2 items-center pt-2 pb-2 pl-4 pr-4 m-2 border-2 border-blue-900 font-medium duration-300 select-none'>
-                <img src={Fusion} className='size-6 object-cover'/>
-                Autodesk Fusion 360
               </div>
               <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} id='Arduino' className='bg-white flex gap-x-2 items-center pt-2 pb-2 pl-4 pr-4 m-2 border-2 border-blue-900 font-medium duration-300 select-none'>
                 <img src={Arduino} className='size-6 object-cover'/>

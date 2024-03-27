@@ -23,6 +23,7 @@ import Donuts from './../assets/donuts.png';
 import Museum from './../assets/hololive_museum.png';
 import GamePoseUnity from './../assets/pose_estimation_game_unity.png';
 import Runner from './../assets/endless_runner.png';
+import Passport from './../assets/passport_control.png';
 
 
 const Projects = () => {
@@ -189,12 +190,19 @@ const Projects = () => {
                   </div>
                 </a>
                 <a className="w-full h-full border border-blue-900 rounded-xl flex-1 shadow-lg hover:shadow-blue-500 max-md:h-1/4" href="https://github.com/Pruetikorn1224/exercise_game_pose_estimation">
+                  <img src={Passport} alt="Ubiq Passport Control" className="w-full h-2/3 object-cover rounded-xl max-xl:h-2/3"/>
+                  <div className="p-4 max-sm:px-2 max-sm:py-4">
+                    <span className="font-bold mb-4 max-lg:text-sm">Ubiq Passport Control</span>
+                    <p className="text-blue-500 max-lg:hidden">A simulation game for training passport inspector at the airport</p>
+                  </div>
+                </a>
+                {/* <a className="w-full h-full border border-blue-900 rounded-xl flex-1 shadow-lg hover:shadow-blue-500 max-md:h-1/4" href="https://github.com/Pruetikorn1224/exercise_game_pose_estimation">
                   <img src={GamePoseUnity} alt="Pose Estimation Game (Unity)" className="w-full h-2/3 object-cover rounded-xl max-xl:h-2/3"/>
                   <div className="p-4 max-sm:px-2 max-sm:py-4">
                     <span className="font-bold mb-4 max-lg:text-sm">Exercise Game (Unity)</span>
                     <p className="text-blue-500 max-lg:hidden">A game that can control playable character by body movement</p>
                   </div>
-                </a>
+                </a> */}
               </div>
               {/* 3D Modelling */}
               <div id='threeD-projects' className='hidden gap-8 w-full h-full flex absolute p-4 items-center justify-center animate-fade  max-md:flex-col'>
