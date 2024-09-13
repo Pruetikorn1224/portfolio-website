@@ -27,7 +27,7 @@ const Contact = () => {
             </div>
             <div className='w-full h-fit flex items-center'>
               <img src={Phone} className='object-fit m-4 h-12 w-12 rounded-full select-none'/>
-              <span>(+44) 7354544076</span>
+              <span>(+66) 90 483 9182</span>
             </div>
           </div>
           <div className='flex items-center justify-center pb-4'>
