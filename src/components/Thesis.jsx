@@ -14,7 +14,7 @@ const Thesis = () => {
             <div className='justify-center w-full h-auto flex flex-col'>
                 <div className='flex flex-col flex-wrap py-8 px-8 mb-4 bg-white border border-blue-900'>
                     <h3 className='text-2xl font-bold'>Blended Environment in Mixed Reality Remote Collaboration: User Interaction Experiment</h3>
-                    <div>Master's Degree, 2024 (Grade:)</div>
+                    <div>Master's Degree, 2024 (Grade: 72)</div>
                     <div className='flex flex-row mt-4'>
                         <DynamicLink url="https://github.com/Pruetikorn1224/MR-Remote-Collaboration-Blended-Environment" linkText="Code" />
                         <DynamicLink url="https://drive.google.com/file/d/11jj9uQvSdELmnbeqnwm_vrCcDV3Cmbj-/view?usp=sharing" linkText="PDF" />

@@ -50,11 +50,11 @@ const Skills = () => {
     "C": ["Programming"],
     "MATLAB": ["Programming", "AI"],
     "SQL": ["Programming", "DataVis"],
-    "MongoDB": ["DataVis"],
+    // "MongoDB": ["DataVis"],
     "Tableau": ["DataVis"],
     "Pytorch": ["AI"],
     "Tensorflow": ["AI"],
-    "AdobeXD": ["Design", "Frontend"],
+    // "AdobeXD": ["Design", "Frontend"],
     "Figma": ["Design", "Frontend"],
     "Unity": ["GameDev", "Programming"],
     // "Unreal": ["GameDev", "Programming"],
@@ -151,10 +151,10 @@ const Skills = () => {
                 <img src={SQL} className='size-6 object-cover'/>
                 SQL
               </div>
-              <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} id='MongoDB' className='bg-white flex gap-x-2 items-center pt-2 pb-2 pl-4 pr-4 m-2 border-2 border-blue-900 font-medium duration-300 select-none'>
+              {/* <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} id='MongoDB' className='bg-white flex gap-x-2 items-center pt-2 pb-2 pl-4 pr-4 m-2 border-2 border-blue-900 font-medium duration-300 select-none'>
                 <img src={Mongo} className='size-6 object-cover'/>
                 MongoDB
-              </div>
+              </div> */}
               <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} id='Tableau' className='bg-white flex gap-x-2 items-center pt-2 pb-2 pl-4 pr-4 m-2 border-2 border-blue-900 font-medium duration-300 select-none'>
                 <img src={Tableau} className='size-6 object-cover'/>
                 Tableau
@@ -167,10 +167,10 @@ const Skills = () => {
                 <img src={Tensorflow} className='size-6 object-cover'/>
                 Tensorflow
               </div>
-              <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} id='AdobeXD' className='bg-white flex gap-x-2 items-center pt-2 pb-2 pl-4 pr-4 m-2 border-2 border-blue-900 font-medium duration-300 select-none'>
+              {/* <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} id='AdobeXD' className='bg-white flex gap-x-2 items-center pt-2 pb-2 pl-4 pr-4 m-2 border-2 border-blue-900 font-medium duration-300 select-none'>
                 <img src={XD} className='size-6 object-cover'/>
                 Adobe XD
-              </div>
+              </div> */}
               <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} id='Figma' className='bg-white flex gap-x-2 items-center pt-2 pb-2 pl-4 pr-4 m-2 border-2 border-blue-900 font-medium duration-300 select-none'>
                 <img src={Figma} className='size-6 object-cover'/>
                 Figma

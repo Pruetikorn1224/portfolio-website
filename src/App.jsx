@@ -17,8 +17,8 @@ function App() {
       <div className="w-full max-sm:items-center max-sm:justify-center bg-gradient-to-b from-white to-gray-100">
         <Navbar />
         <About />
-        <Skills />
         <Thesis />
+        <Skills />
         <Projects />
         <Contact />
         <Footer />
