@@ -8,6 +8,7 @@ import IndeedIcon from '../assets/brands/indeed.png';
 import LinkedinIcon from '../assets/brands/linkedin.png';
 import GithubIcon from '../assets/brands/github.png';
 import MediumIcon from '../assets/brands/medium.png';
+import KaggleIcon from '../assets/brands/kaggle.png';
 
 const Contact = () => {
 
@@ -27,7 +28,7 @@ const Contact = () => {
             </div>
             <div className='w-full h-fit flex items-center'>
               <img src={Phone} className='object-fit m-4 h-12 w-12 rounded-full select-none'/>
-              <span>(+44) 7354544076</span>
+              <span>(+66) 90 483 9182</span>
             </div>
           </div>
           <div className='flex items-center justify-center pb-4'>
@@ -35,7 +36,8 @@ const Contact = () => {
             <img src={IndeedIcon} onClick={handleClick("https://profile.indeed.com/p/pruetikornc-yn9nb8y")} alt='indeed' className='object-fit cursor-pointer m-4 h-12 w-12 rounded-full border-blue-900 border'/>
             <img src={LinkedinIcon} onClick={handleClick("https://www.linkedin.com/in/ch-pruetikorn")} alt='linkedin' className='object-fit cursor-pointer m-4 h-12 w-12 rounded-full border-blue-900 border'/>
             <img src={GithubIcon} onClick={handleClick("https://github.com/Pruetikorn1224")} alt='github' className='object-fit cursor-pointer m-4 h-12 w-12 rounded-full border-blue-900 border'/>
-            <img src={MediumIcon} onClick={handleClick("https://medium.com/@p.chirattitikarn")} alt='medium' className='object-fit cursor-pointer m-4 h-12 w-12 rounded-full border-blue-900 border'/>
+            {/* <img src={MediumIcon} onClick={handleClick("https://medium.com/@p.chirattitikarn")} alt='medium' className='object-fit cursor-pointer m-4 h-12 w-12 rounded-full border-blue-900 border'/> */}
+            <img src={KaggleIcon} onClick={handleClick("https://www.kaggle.com/pchirattitikarn")} alt='kaggle' className='object-fit cursor-pointer m-4 h-12 w-12 rounded-full border-blue-900 border'/>
           </div>
       </div>
     </section>

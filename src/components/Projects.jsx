@@ -60,7 +60,7 @@ const Projects = () => {
             <ul className='flex list-none flex-row flex-wrap bg-white border-b-0 font-medium justify-center items-center text-lg max-xl:text-base'>
               <li 
                 id="ai"
-                className='flex cursor-pointer h-full py-2 flex-1 border-t border-blue-900 items-center justify-center duration-300 bg-blue-900 text-white hover:bg-blue-900 hover:text-white max-lg:border max-lg:rounded-t-lg'
+                className='flex cursor-pointer h-full py-2 flex-1 border-t border-blue-900 items-center justify-center duration-300 bg-blue-900 text-white hover:bg-blue-700 hover:text-white max-lg:border max-lg:rounded-t-lg'
                 onClick={() => setTab('ai-projects')}
               >
                 <img src={AI} alt="AI" className="lg:hidden size-8"/>
@@ -68,7 +68,7 @@ const Projects = () => {
               </li>
               <li 
                 id="programming"
-                className='flex cursor-pointer h-full py-2 flex-1 border-t border-blue-900 items-center justify-center duration-300 hover:bg-blue-900 hover:text-white max-lg:border max-lg:rounded-t-lg'
+                className='flex cursor-pointer h-full py-2 flex-1 border-t border-blue-900 items-center justify-center duration-300 hover:bg-blue-700 hover:text-white max-lg:border max-lg:rounded-t-lg'
                 onClick={() => setTab('programming-projects')}
               >
                 <img src={Programming} alt="Programming" className="lg:hidden size-8"/>
@@ -76,7 +76,7 @@ const Projects = () => {
               </li>
               <li 
                 id="uxui"
-                className='flex cursor-pointer h-full py-2 flex-1 border-t border-blue-900 items-center justify-center duration-300 hover:bg-blue-900 hover:text-white max-lg:border max-lg:rounded-t-lg'
+                className='flex cursor-pointer h-full py-2 flex-1 border-t border-blue-900 items-center justify-center duration-300 hover:bg-blue-700 hover:text-white max-lg:border max-lg:rounded-t-lg'
                 onClick={() => setTab('uxui-projects')}
               >
                 <img src={UXUI} alt="UX/UI" className="lg:hidden size-8"/>
@@ -84,7 +84,7 @@ const Projects = () => {
               </li>
               <li 
                 id="gamedev"
-                className='flex cursor-pointer h-full py-2 flex-1 border-t border-blue-900 items-center justify-center duration-300 hover:bg-blue-900 hover:text-white max-lg:border max-lg:rounded-t-lg'
+                className='flex cursor-pointer h-full py-2 flex-1 border-t border-blue-900 items-center justify-center duration-300 hover:bg-blue-700 hover:text-white max-lg:border max-lg:rounded-t-lg'
                 onClick={() => setTab('gamedev-projects')}
               >
                 <img src={GameDev} alt="Game Development" className="lg:hidden size-8"/>
@@ -92,7 +92,7 @@ const Projects = () => {
               </li>
               <li 
                 id="threeD"
-                className='flex cursor-pointer h-full py-2 flex-1 border-t border-blue-900 items-center justify-center duration-300 hover:bg-blue-900 hover:text-white max-lg:border max-lg:rounded-t-lg'
+                className='flex cursor-pointer h-full py-2 flex-1 border-t border-blue-900 items-center justify-center duration-300 hover:bg-blue-700 hover:text-white max-lg:border max-lg:rounded-t-lg'
                 onClick={() => setTab('threeD-projects')}
               >
                 <img src={ThreeD} alt="3D Modelling" className="lg:hidden size-8"/>
@@ -110,7 +110,7 @@ const Projects = () => {
                     <p className="text-blue-500 max-lg:hidden">Using depth camera to detect face with classification between real and photo</p>
                   </div>
                 </a>
-                <a className="w-full h-full border border-blue-900 rounded-xl flex-1 shadow-lg hover:shadow-blue-500 max-md:h-1/4" href="https://github.com/Pruetikorn1224/Anime-Recommender/tree/main">
+                <a className="w-full h-full border border-blue-900 rounded-xl flex-1 shadow-lg hover:shadow-blue-500 max-md:h-1/4" href="https://www.kaggle.com/code/pchirattitikarn/anime-exchange">
                   <img src={Anime} alt="Anime Recommendation" className="w-full h-2/3 object-cover rounded-xl max-xl:h-2/3"/>
                   <div className="p-4 max-sm:px-2 max-sm:py-4">
                     <span className="font-bold mb-4 max-lg:text-sm">Anime Recommendation</span>
